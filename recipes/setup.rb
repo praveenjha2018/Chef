@@ -13,5 +13,5 @@ end
 file '/etc/motd' do
 	content 'This server is Praveen property'
 	owner 'root'
-	
+	group 'root'
 end 
