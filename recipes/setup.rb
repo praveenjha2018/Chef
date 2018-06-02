@@ -11,7 +11,7 @@ package 'git' do
 end
 
 file '/etc/motd' do
-	content 'This server is Praveen property...test for github update'
+	content 'This server is Praveen property...test for github auto update'
 	owner 'root'
 	group 'root'
 end 
